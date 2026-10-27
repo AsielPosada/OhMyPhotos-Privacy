@@ -7,7 +7,6 @@
   --muted: #62636b;
   --link: #234fa7;
   --border: #dedee3;
-  --surface: #f0f3fa;
 }
 
 * {
@@ -63,20 +62,6 @@ a:focus-visible {
   font-size: 0.95rem;
 }
 
-.summary {
-  padding: 1rem 1.25rem;
-  background: var(--surface);
-  border-radius: 0.75rem;
-}
-
-.summary p:first-child {
-  margin-top: 0;
-}
-
-.summary p:last-child {
-  margin-bottom: 0;
-}
-
 .languages {
   display: flex;
   flex-wrap: wrap;
@@ -100,6 +85,5 @@ footer {
     --muted: #b3b4bf;
     --link: #a8c5ff;
     --border: #383a44;
-    --surface: #222938;
   }
 }
